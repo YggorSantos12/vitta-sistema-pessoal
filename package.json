@@ -1,0 +1,21 @@
+{
+  "name": "site-creator-vinext-starter",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview",
+    "test": "npm run build",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "8.0.13"
+  },
+  "type": "module"
+}
